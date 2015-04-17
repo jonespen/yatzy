@@ -2,8 +2,10 @@
 
 import React from 'react';
 import Categories from './Categories/Categories';
-import Dice from './Dice/Dice';
-import Board from './Board/Board';
+import Dice from './components/Dice/Dice';
+import Board from './components/Board/Board';
+
+require('./App.scss');
 
 export default class App extends React.Component {
   constructor(props){

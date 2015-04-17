@@ -2,6 +2,8 @@
 
 import React from 'react';
 
+require('./Board.scss');
+
 export default class Board extends React.Component {
   constructor(props){
     super(props);
